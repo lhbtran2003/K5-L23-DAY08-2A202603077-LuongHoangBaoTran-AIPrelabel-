@@ -1,2 +1,3 @@
 step,images,minutes,note
-gold-manual,...,60m
+gold_manual,4,60m,"Gán tay 4 ảnh gold trước khi xem pre-label"
+batch_review,24,90m,"Review thủ công 24 ảnh batch trên CVAT"

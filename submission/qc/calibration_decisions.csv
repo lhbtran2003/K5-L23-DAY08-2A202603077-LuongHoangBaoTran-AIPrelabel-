@@ -1,1 +1,5 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_007,loi_may,"YOLO26 gọi xích lô/xe ba bánh là motorbike","Gán three_wheeler cho tuk-tuk, xích lô và xe ba gác; người lái là person riêng","Bổ sung mục 2 và 4.3: phân biệt theo số bánh và cấu trúc xe, không giữ nhãn detector nếu sai lớp",v1.1
+CAL-02,img_032,cau_hoi_mo,"Khối xe máy/xe đạp dày đặc: gán từng vật hay ignore_region?","Gán từng vật nếu còn nhìn thấy và tách được; dùng ignore_region khi cụm có từ 5 vật trở lên, vật cao dưới 20 px hoặc không thể tách đáng tin cậy","Làm rõ mục 4.1.6 và mục 5: không dùng ignore_region để bỏ qua vật rõ ràng đủ lớn",v1.1
+CAL-03,img_013,cau_hoi_mo,"Người trong xe ba bánh có mui bị che một phần","Gán person riêng khi còn nhìn thấy khoảng từ 20% cơ thể trở lên; dưới ngưỡng đó không gán người","Làm rõ mục 4.1.2 và mục 5: người và xe là các vật riêng khi phần người nhìn thấy đủ rõ",v1.1
+CAL-04,img_015,loi_may,"SAM3 nhận hình người trên banner thành person","Không gán hình in, ảnh trên biển quảng cáo, tượng hoặc phản chiếu","Nhắc lại mục 2 và 4.1.7: chỉ gán vật thể thật trong cảnh",v1.1

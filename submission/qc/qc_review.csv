@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,LuongHoangBaoTran,"Không thấy lỗi rõ ràng trong mẫu ảnh này."
+img_006.jpg,,khong,LuongHoangBaoTran,"Không thấy lỗi rõ ràng trong mẫu ảnh này."
+img_014.jpg,,khong,LuongHoangBaoTran,"Không thấy lỗi rõ ràng trong mẫu ảnh này."
+img_031.jpg,477,sai_vi_tri_kich_thuoc,LuongHoangBaoTran,"Box person quá rộng, bao gồm cả xe đạp/giỏ hàng phía dưới; cần ôm sát phần người nhìn thấy."
+img_035.jpg,,khong,LuongHoangBaoTran,"Không thấy lỗi rõ ràng trong mẫu ảnh này."
